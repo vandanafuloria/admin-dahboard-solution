@@ -1,0 +1,70 @@
+@media (max-width: 900px) {
+    .sidebar{
+        flex-basis: 10%;
+    }
+    .dashboard-head h1{
+        display: none;
+    }
+    .sidebar-content h3{
+        display: none;
+    }
+    .content-box{
+        flex-basis: 90%;
+    }
+   .header_icon-bar{
+    display: none;
+   }
+   .intro{
+    display: none !important;
+   }
+   .header_buttons {
+    flex-basis: 100%!important;
+   }
+   .project-containers{
+    flex-wrap: wrap;
+   }
+   .info-flex h1{
+    display: none;
+   }
+   hr{
+    display: none;
+   }
+   .info-div{
+        flex-direction: row !important;
+   }
+   .trending div div{
+    flex-direction: row;
+   }
+   .icon,.logo,.profile-section h2{
+    display: none;
+   }
+   .profile-section{
+    display: none;
+   }
+   input{
+    flex-basis: 100%;
+   }
+  
+   
+   
+}
+@media (max-width:750px) {
+    .project-bar {
+        grid-template-columns: none  !important;
+        display:flex;
+        flex-wrap: wrap;
+        gap:10px;
+
+       
+    }
+    
+
+        .sidebar {
+            flex-basis: 15%; 
+        }
+        .content-box {
+            flex-basis: 85%;
+        }
+    }
+
+
